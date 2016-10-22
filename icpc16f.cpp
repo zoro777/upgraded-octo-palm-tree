@@ -1,23 +1,15 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-#define mod 1000000007
-#define pb push_back
-#define mp make_pair
-#define S second
-#define F first
-
 typedef long long ll;
-
-
 
 int main(){
 
 	int t;
-	cin>>t;
+	scanf("%d",&t);
 	while(t--){
 		ll n,m,d,D;
-		cin>>n>>m>>d>>D;
+		scanf("%lld %lld %lld %lld",&n,&m,&d,&D);
 		if(d*n<=m && m<=D*n){
 			ll x= m/n;
 			for(int i=0;i<n;i++){
@@ -25,19 +17,19 @@ int main(){
 				while(c<=x){
 					ll y = i+c;
 					y=y%n;
-					y++;
-					cout<<(i+1)<<" "<<y<<endl;
+					y++;					
+					printf("%lld %lld\n",(i+1),y);
 					c++;
 				}
 			}
 			ll p = m-x*n;
 			int xx=1;
 			while(p--){
-				cout<<xx<<" "<<xx<<endl;
+				printf("%lld %lld\n",xx,xx);
 				xx++;
 			}
 		}else{
-			cout<<"-1"<<endl;
+			printf("-1\n");
 		}
 
 	}
