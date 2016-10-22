@@ -50,8 +50,8 @@ ll fpow(ll base,ll power){
 
 #define maxn 8 * 100001
 
-ll dp[maxn];
-ll a[maxn];
+ll dp[maxn + 1];
+ll a[maxn + 1];
 
 void solve(){
 
