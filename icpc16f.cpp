@@ -5,7 +5,8 @@ typedef long long ll;
 
 int main(){
 
-	int t;
+	int t;//how the fuck are you
+	
 	scanf("%d",&t);
 	while(t--){
 		ll n,m,d,D;
