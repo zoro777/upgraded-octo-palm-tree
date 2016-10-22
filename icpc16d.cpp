@@ -19,7 +19,7 @@ ll read(){
 	ll result = 0;
 	char ch;
 	ch = getchar();
-	while (true) {
+	while (1) {
 		if (ch == '-') break;
 		if (ch >= '0' && ch <= '9') break;
 		ch = getchar();
