@@ -6,10 +6,9 @@ using namespace std;
 #define mp make_pair
 #define S second
 #define F first
+#define print(x) cout<<x<<endl;
 
 typedef long long ll;
-
-
 
 int main(){
 
@@ -37,7 +36,7 @@ int main(){
 				xx++;
 			}
 		}else{
-			cout<<"-1"<<endl;
+			print(-1);
 		}
 
 	}
