@@ -10,6 +10,7 @@ typedef long long ll;
 #define F first
 #define S second
 #define pb push_back
+#define pf(x) cout<<x<<endl;
 
 const ll mod = 1000000007;
 const int inf = 1e9;
@@ -83,8 +84,7 @@ void solve(){
 		ans = (ans%mod + dp[a[i]]%mod) % mod;
 		while ( ans < 0 ) ans += mod;
 	}
-	printf("%lld\n", ans);
-	
+	pf(ans);	
 }
 
 int main(){
